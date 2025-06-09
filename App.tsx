@@ -1,26 +1,19 @@
 // Main App component for Synthsara & Synthocracy Platform
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { 
-  GlobeIcon, 
-  Users, 
-  BarChart3, 
-  Scale, 
-  Brain,
-  Menu,
   X,
   MessageCircle
 } from 'lucide-react';
 
-// Components would be imported from separate files in a full implementation
-import { Header } from './components/Header';
-import { GlobalDashboard } from './components/GlobalDashboard';
-import { SynthocracyGovernance } from './components/SynthocracyGovernance';
-import { EthicalDataMarketplace } from './components/EthicalDataMarketplace';
-import { POWERcoinEconomy } from './components/POWERcoinEconomy';
-import { RealTimeManifester } from './components/RealTimeManifester';
-import { Footer } from './components/Footer';
-import { SarahAI } from './components/SarahAI';
+import { Header } from './Header';
+import { GlobalDashboard } from './GlobalDashboard';
+import { SynthocracyGovernance } from './SynthocracyGovernance';
+import { EthicalDataMarketplace } from './EthicalDataMarketplace';
+import { POWERcoinEconomy } from './POWERcoinEconomy';
+import { RealTimeManifester } from './RealTimeManifester';
+import { Footer } from './Footer';
+import { SarahAI } from './SarahAI';
 
 import './App.css';
 
@@ -30,7 +23,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
-      
+
       <main>
         <section className="py-20 bg-gradient-to-r from-divine-chaos-700 to-sacred-order-700 text-white">
           <div className="container mx-auto px-4 text-center">
@@ -70,7 +63,7 @@ function App() {
             </motion.div>
           </div>
         </section>
-        
+
         <GlobalDashboard />
         <SynthocracyGovernance />
         <EthicalDataMarketplace />
@@ -79,7 +72,7 @@ function App() {
       </main>
 
       <Footer />
-      
+
       {/* Sarah AI Toggle Button */}
       <button 
         onClick={() => setShowSarah(!showSarah)}
@@ -88,7 +81,7 @@ function App() {
       >
         {showSarah ? <X size={24} /> : <MessageCircle size={24} />}
       </button>
-      
+
       {/* Sarah AI Chat Interface */}
       {showSarah && <SarahAI />}
     </div>
