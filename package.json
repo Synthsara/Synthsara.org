@@ -1,7 +1,6 @@
 {
   "name": "synthsara-platform-frontend",
-  "version": "0.1.0",
-  "description": "Frontend for the Synthsara & Synthocracy Platform Prototype",
+"description": "Frontend for the Synthsara & Synthocracy Platform Prototype",
   "private": true,
   "scripts": {
     "dev": "next dev",
