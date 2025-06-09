@@ -1,4 +1,3 @@
-// Tailwind CSS configuration for Synthsara & Synthocracy Platform Prototype
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
