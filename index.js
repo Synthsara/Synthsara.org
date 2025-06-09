@@ -1,4 +1,4 @@
-// Main server file for Synthsara & Synthocracy Platform Prototype
+
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
