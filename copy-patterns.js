@@ -1,4 +1,4 @@
-// Copy the sacred geometry patterns to the React app's public directory
+
 const fs = require('fs');
 const path = require('path');
 
