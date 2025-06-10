@@ -18,7 +18,7 @@ export const Footer = () => {
               <li><a href="#dashboard" className="text-gray-400 hover:text-white transition">Global Dashboard</a></li>
               <li><a href="#governance" className="text-gray-400 hover:text-white transition">Synthocracy Governance</a></li>
               <li><a href="#marketplace" className="text-gray-400 hover:text-white transition">Ethical Data Marketplace</a></li>
-              <li><a href="#powercoin" className="text-gray-400 hover:text-white transition">POWERcoin™ Economy</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition">WORTH Token</a></li>
             </ul>
           </div>
           <div>
@@ -27,7 +27,7 @@ export const Footer = () => {
               <li><a href="#" className="text-gray-400 hover:text-white transition">Documentation</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition">User Guidelines</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition">Educational Materials</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition">Community Forums</a></li>
+              <li><a href="#WORTH" className="text-gray-400 hover:text-white transition">Community Forums</a></li>
             </ul>
           </div>
           <div>
