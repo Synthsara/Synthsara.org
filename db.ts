@@ -3,7 +3,7 @@ import { createClient } from '@supabase/supabase-js';
 
 // In-memory store for development/testing
 const intentions = new Map();
-let powerCoinCounter = 0;
+let WORTHCounter = 0;
 
 // Helper function to save an intention
 export async function saveIntention(text, userId = 'anonymous') {
@@ -19,10 +19,10 @@ export async function saveIntention(text, userId = 'anonymous') {
   
   intentions.set(id, intention);
   
-  // Increment POWERcoin for the user
-  powerCoinCounter += 1;
+  // Increment WORTH for the user
+  WORTHCounter += 1;
   
-  return { intention, powerCoinCounter };
+  return { intention, WORTHCounter };
 }
 
 // Helper function to list intentions
@@ -34,15 +34,15 @@ export async function listIntentions(userId = 'anonymous') {
   return userIntentions;
 }
 
-// Helper function to mint POWERcoin
+// Helper function to mint WORTH
 export async function mintPower(userId = 'anonymous', amount = 1) {
-  powerCoinCounter += amount;
-  return { powerCoinCounter };
+  WORTHCounter += amount;
+  return { WORTHCounter };
 }
 
-// Function to get current POWERcoin balance
-export async function getPowerBalance(userId = 'anonymous') {
-  return { powerCoinCounter };
+// Function to get current WORTH balance
+export async function getWORTHBalance(userId = 'anonymous') {
+  return { WORTHCounter };
 }
 
 // This will be replaced with actual Supabase implementation in production
