@@ -22,7 +22,7 @@ export const Header = () => {
             <li><a href="#dashboard" className="hover:text-sacred-order-300 transition">Dashboard</a></li>
             <li><a href="#governance" className="hover:text-sacred-order-300 transition">Synthocracy</a></li>
             <li><a href="#marketplace" className="hover:text-sacred-order-300 transition">Data Marketplace</a></li>
-            <li><a href="#powercoin" className="hover:text-sacred-order-300 transition">POWERcoin™</a></li>
+            <li><a href="#powercoin" className="hover:text-sacred-order-300 transition">WORTH™</a></li>
             <li><a href="#manifester" className="hover:text-sacred-order-300 transition">Manifester</a></li>
           </ul>
         </nav>
