@@ -2,7 +2,7 @@ import { SarahAI } from '@/components/SarahAI';
 import { GlobalDashboard } from '@/components/GlobalDashboard';
 import { SynthocracyGovernance } from '@/components/SynthocracyGovernance';
 import { EthicalDataMarketplace } from '@/components/EthicalDataMarketplace';
-import { POWERcoinEconomy } from '@/components/POWERcoinEconomy';
+import { WORTHEconomy } from '@/components/WORTHEconomy';
 import { RealTimeManifester } from '@/components/RealTimeManifester';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
@@ -50,7 +50,7 @@ export default function Home() {
       <GlobalDashboard />
       <SynthocracyGovernance />
       <EthicalDataMarketplace />
-      <POWERcoinEconomy />
+      <WORTHEconomy />
       <RealTimeManifester />
       
       <Footer />
