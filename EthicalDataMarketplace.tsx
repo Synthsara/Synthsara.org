@@ -10,7 +10,7 @@ export const EthicalDataMarketplace = () => {
       name: 'Personal Insights',
       description: 'Share anonymized personal preferences and habits to improve services.',
       sharingEnabled: true,
-      compensation: 'POWERcoin™ rewards based on data quality and usage',
+      compensation: 'WORTH™ rewards based on data quality and usage',
       privacyLevel: 'High - Fully anonymized with consent management'
     },
     {
@@ -18,7 +18,7 @@ export const EthicalDataMarketplace = () => {
       name: 'Health & Wellness',
       description: 'Contribute to medical research and health innovations through anonymized health data.',
       sharingEnabled: false,
-      compensation: 'POWERcoin™ rewards + research outcome access',
+      compensation: 'WORTH™ rewards + research outcome access',
       privacyLevel: 'Very High - Zero-knowledge proofs for verification without exposure'
     },
     {
@@ -242,7 +242,7 @@ export const EthicalDataMarketplace = () => {
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">2025-05-28</td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Environmental Monitoring</td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Global Climate Research Initiative</td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">5.2 POWERcoin™</td>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">5.2 WORTH™</td>
                     <td className="px-6 py-4 whitespace-nowrap">
                       <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                         Completed
