@@ -10,7 +10,7 @@ import { Header } from './Header';
 import { GlobalDashboard } from './GlobalDashboard';
 import { SynthocracyGovernance } from './SynthocracyGovernance';
 import { EthicalDataMarketplace } from './EthicalDataMarketplace';
-import { POWERcoinEconomy } from './POWERcoinEconomy';
+import { WORTHEconomy } from 'WORTHEconomy';
 import { RealTimeManifester } from './RealTimeManifester';
 import { Footer } from './Footer';
 import { SarahAI } from './SarahAI';
@@ -67,7 +67,7 @@ function App() {
         <GlobalDashboard />
         <SynthocracyGovernance />
         <EthicalDataMarketplace />
-        <POWERcoinEconomy />
+        <WORTHEconomy />
         <RealTimeManifester />
       </main>
 
