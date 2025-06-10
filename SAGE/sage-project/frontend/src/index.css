@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply font-body text-sage-dark bg-sage-light;
+    background-image: radial-gradient(circle at center, rgba(247, 243, 235, 0.9) 0%, rgba(247, 243, 235, 1) 100%);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-medium;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-6 py-3 rounded-full font-display text-sm uppercase tracking-wider transition-all duration-300;
+  }
+  
+  .btn-primary {
+    @apply bg-sage-primary text-white hover:bg-opacity-90;
+  }
+  
+  .btn-secondary {
+    @apply bg-sage-secondary text-white hover:bg-opacity-90;
+  }
+  
+  .btn-accent {
+    @apply bg-sage-accent text-sage-dark hover:bg-opacity-90;
+  }
+  
+  .input-field {
+    @apply bg-white bg-opacity-50 border border-sage-primary/30 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-sage-primary/50;
+  }
+  
+  .card {
+    @apply bg-white bg-opacity-70 backdrop-blur-sm rounded-xl p-6 shadow-lg;
+  }
+  
+  .glyph-container {
+    @apply relative flex items-center justify-center;
+  }
+}
+
+/* Sacred geometry animations */
+.sacred-spin {
+  animation: sacred-spin 20s linear infinite;
+}
+
+@keyframes sacred-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Pulse animation for interactive elements */
+.sacred-pulse {
+  animation: sacred-pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes sacred-pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-sage-light;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-sage-primary/50 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-sage-primary;
+}
